@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Birthday Surprise</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <button id="birthdayButton">Click Me!</button>
+      <div id="message" class="hidden"></div>
+      <canvas id="confettiCanvas"></canvas>
+      <!-- Happy Birthday Song -->
+      <audio
+        id="birthdaySong"
+        src="happy-birthday-song.mp3"
+        preload="auto"
+      ></audio>
+    </div>
+
+    <!-- Corner Images -->
+    <img
+      src="tulip-background.jpg"
+      id="topLeft"
+      class="corner-image hidden"
+      alt="Corner Image 1"
+    />
+    <img
+      src="image2.jpg"
+      id="topRight"
+      class="corner-image hidden"
+      alt="Corner Image 2"
+    />
+    <img
+      src="image3.jpg"
+      id="bottomLeft"
+      class="corner-image hidden"
+      alt="Corner Image 3"
+    />
+    <img
+      src="image4.jpg"
+      id="bottomRight"
+      class="corner-image hidden"
+      alt="Corner Image 4"
+    />
+
+    <script src="script.js"></script>
+  </body>
+</html>
